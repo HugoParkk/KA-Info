@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Korean Anniversary Info</title>
+        <link rel="stylesheet" href="../css/cssIndex.css">
+        
+</head>
+
+<body id="loadmap">
+
+    <div class="container">
+        <div class="header">
+            KA <span>Info</span>
+        </div>
+
+        <div id="search">
+            <input type="text" id="searchbox" pl``aceholder="       예시)202006">
+            <button id="button3" class="default">검색</button>
+        </div>
+        <ul id="menu">
+            <button id="button1" class="default">한국의 기념일 보기</button>
+            <button id="button2" class="default">이 달의 기념일</button>
+        </ul>
+        <div class="contents">
+            <div id="map">
+                <div id="map_index">관련지역</div>
+                <div id="map_view"></div>
+            </div>
+            <div id="contents1"><br><br><br><br><br><br><br><br><br><li id="content">이 웹사이트는 대한민국의 기념일을 검색하고, 관련 지역을 표시합니다.</li></div>
+            <h2></h2>
+        </div>
+        <div class="footer">Copyright(c) all rights reserved on Jong yeon Park, Min seok Kim, Yeong seok Lee</div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLvdbBDz7QFhqGNl92oCu5VsX SDhLuWZw&callback=initMap&region=kr"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
